@@ -58,11 +58,55 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
+    <style       
+     .top-nav-bar
+     {
+           heigth: 57px;
+            top: 0;
+            poosition: sticky;
+            background: #fff;
+            margin-bottom: 20px;
+            border-bottom: 3px solid orange;
+            z-index: 2;
+     {
+     .form-control
+     {
+           margin-top: 9px;
+           margin-left: 30px
+           border : 1px solid orange !;
+           border-top-left-radius: 20px !important;
+           border-bottom-left-radius: 20px !important;
+           border-top-right-radius: 0 !important;
+           border-bottom-right-radius: 0 !important;
+           box-shadow: none !important;
+     }
+     .input-group-text
+     {
+           background: orange;
+           border: 1px solid orange !important;
+           margin: 8.5px 10px 3px 0 !important;
+           border-top-left-radius: 0px !important;
+           border-bottom-left-radius: 0px !important;
+           border-top-right-radius: 20px !important;
+           border-bottom-right-radius: 20px !important;
+           cursor: pointer;
+     }
+     .serach-box
+     {
+           display: inline-flex;
+           width:60%;
+     }
+     .fa-search
+     { color: #fff;
+     }     
+           
+     
     <div class="top-nav-bar">
     <div class="search-box">
     <input type="text" class="form-control">
-    <span class="input-group-text"></span>
+    <span class="input-group-text"><i class="fa fa-search"></i></span>
     </div>
+    <div class="menubar">
   </header>
 
   <!-- Image header -->
@@ -75,7 +119,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
     </div>
   </div>
-
+  </style>
   <div class="w3-container w3-text-grey" id="jeans">
     <p>8 items</p>
   </div>
